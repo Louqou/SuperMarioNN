@@ -1,0 +1,10 @@
+                                            *                                
+                               XXXXXXX=     *         
+                              X             *9        
+                             X              *9        
+                            X         8     *9       
+         1234              X          8     *9A       
+         12345            X           8     *9A       
+         12345           X            8     *9A      
+         123456         X             8     *9AB      
+XXXXXXXX=XXXXXXXXXXXXXXX             78     *9AB     

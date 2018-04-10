@@ -1,0 +1,10 @@
+                  ++    y     ++                ==?=====                     y                                                                                                                          
+                 r      ~-     r                                             ~-                                          0000                                                                           
+                NNNNNN  LF  NNNNNN               r   r             r   r     LF                        =======           ====                                                XX                         
+                        LF                      ======?=          NNNNNNNX   LF    NNNNN                                                                                                                
+                        LF                                        NNNNNNN    LF    NNNNN                             G                                                   XX                             
+                        LF                                       CNNNNNNN    LF    NNNNN           r                 ?                                                                                  
+                       NNNN                     ========         MNNNNNNN    LF    NNNNN         ====                     y                                          XX                                 
+                                                                NNNNNNNNN    LF    NNNNN                                  ~-                                                                            
+                                                    s     gg    NNNNNNNNN    LF    NNNNN                    b b    b      LF                         R                              X                   
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN  NNN  NN  NNNNNNNNNNNNNNNNNNNNNNNNNNN    LF    NNNNN   NNNNN      NNNNNNNNNNNNNNNN    NN  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNN    NNN                 NNNNNNNNNNNNNNNNNNNN

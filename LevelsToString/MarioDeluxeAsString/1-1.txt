@@ -1,0 +1,10 @@
+                                                          00000000                                                                                                                                      
+                 X=====                                 ==============   ==== ==========                                  ======                                               XX                       
+                 X                                                                                                                              ~-                            XXX                       
+                 X                                                                                                                              LF                           XXXX                       
+                 X    X                    ?                                               X                                                    LF                          XXXXX                       
+                 X=?==X   ++?++        ~-                 ?==========  X+           ++?++++X                            ~-   ~-            ~-  +++?                        XXXXXX                       
+                                       LF                             XX                                                LF   LF            LF                             XXXXXXX                       
+                                       LF                            XXX                                                LF   LF            LF                   ~-       XXXXXXXX                       
+                                ~-     LF    ~-                     XXXX                                                LF   LF            LF                   LF      XXXXXXXXX                       
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNLFNNNNNNNNNNNLFNNNNNN   NNNNNNNNNNNNNNNNNNNN    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN   NN  NNNNNNNNNNNNNNNNNNN   NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN

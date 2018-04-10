@@ -1,0 +1,79 @@
+-----ENVIRONMENT-----
+OS:
+Distributor ID: Ubuntu
+Description:  Ubuntu 16.04.1 LTS
+Release:  16.04
+Codename: xenial
+
+Java:
+openjdk version "1.8.0_121"
+OpenJDK Runtime Environment (build 1.8.0_121-8u121-b13-0ubuntu1.16.04.2-b13)
+OpenJDK 64-Bit Server VM (build 25.121-b13, mixed mode)
+
+Python:
+Python 2.7.12
+
+CUDA:
+Cuda 8.0
+Run on NVIDIA GeForce GTX 770m Driver Version: 375.39
+
+-----SETUP-----
+Install python 2.7 development package - apt-get install python2.7-dev
+
+If your JDK does not contain JavaFX use apt-get install openjfx or download through the oracle website
+
+Add the project folder 'PythonLibraries' to your python path, for linux PYTHONPATH
+
+The Mario game engine and the user-interface can be compiled using makeEngine.sh and makeApp.sh
+in MarioLevelComp2011
+
+-----USE-----
+LevelsToString contains python programs I used to convert images of Mario levels into string representations, which can be
+found in LevelsAsString
+
+PathThroughLevel contains python programs I used to find and draw paths through each Mario level. This can be quickly
+demoed in Demo/2PathThroughLevel:
+  Run PathDemo.py
+  This uses level NoPath.txt
+  GeneratedLevel/PathLevel.txt will contain the same level, but with the paths now drawn
+
+LasagneTest contains the first network I created. It's a recurrent network that generates characters. Trained using the
+book 'Alice's Adventures in Wonderland' in alice.txt. Running WonderLand.py with the argument 'train'
+will start training the network from scratch. With the argument 'gen' the network will output blocks of text using
+previouly trained parameters in file secondParameters19.npz
+
+MarioNNs contains the network for level generation, levels generated, level statistics, test data.
+File LevelNN.py: Argument 'train' will train a network from scratch.
+                   -Parameters for each epoch will be saved in folder params
+                   -Training loss will be saved in lossTrain.txt
+                   -Cross-validation loss will be saved in lossCV.txt
+                   -Training data is in LevelData.txt
+                   -CV data is in CVData.txt
+                 Argument 'gen' will generate a level, number of levels generated can be changed on line 403. Level saved in GeneratedLevels.
+                   -The raw level can also be viewed in GenLevel.txt which is transfromed by PlayableLevelString.py
+                 Argument 'server' will generate levels and allow the user application to connect and retrieve them
+                 Parameters for generation found in p20.npz
+                 Hyperparameters can be altered at the top (lines 18-22)
+                 Changing to three layers - uncomment lines 151-155 then change variable lstmLayer1 on line 160 to lstmLayer2
+                 When generating a level in server mode it make be thrown away for two reasons:
+                  -could not be converted to playble - this will happen if the network creates a column of blocks thats too long
+                  -could not find path through level - if my path finder couldn't create a path through
+File LevelStats.py: Used to gather statistics on the levels, currently looks through all levels in GeneratedLevels
+                    Saves stats in file Stats
+                    Columns are: percentage blank, number of coins, number of enemies - number of powerups, number of jumps, number of towers(canons and tubes), number of gaps
+                    Second to last row is the mean of all the levels, the last row is the standard deviation
+oldTest contains test data created when first using the network in order to get some intuition on hyperparameters
+Tests contains test data created when deciding which hyperparameters to use, lr stands for learning rate, reg for the weight decay value used in regularisation and sl is sequence length. Unless stated
+gradient clipping has been set to 1.0 for these tests
+
+MarioLevelComp2011 contains the mario engine and the user application. To use the application first start running LevelNN.py with argument server (in folder MarioNNs), when the program prints 'server' onto the terminal then you can run runApp.sh. The client pings the server until the network is compiled, and then when will keep pinging until a level is generated. A new level will be generated while you play. To move onto the next level simply close the window containing the level (do not use ESC key). The level that is created by the server can be viewed in MarioNNs/GeneratedLevel/FinalGenLevel.txt
+
+-----REFERENCES-----
+LasagneTest/alice.txt downloaded from www.gutenberg.org [Accessed: 12 Dec 16]
+MarioLevelComp2011 contains Mario engine I have modified downloaded from the "2011 source package" at: http://www.marioai.org/LevelGeneration/source-code [Accessed: 9 Oct 16]
+All Mario level images in LevelsToString/WorldImages downloaded from http://www.mariouniverse.com/ [Accessed: 14 Nov 16]
+Mario font in MarioLevelComp2011/App created using http://www.fontspace.com/mario-monsters/super-mario-bros [Accessed: 28 Feb 17]
+MarioLevelComp2011/App/200px-SMM-SMW-Arrow.png downloaded from https://www.mariowiki.com/images/thumb/0/0d/SMM-SMW-Arrow.png/200px-SMM-SMW-Arrow.png [Accessed: 26 Feb 17]
+MarioLevelComp2011/App/148829841566592.png modified from http://www.auntiepixelante.com/wp-content/uploads/2009/07/supermariobrosbeginning_bigger.png [Accessed: 28 Feb 17]
+MarioLevelComp2011/App/PixelArt.png downloaded from http://pixelartmaker.com/art/fd818c106cf58d9.png [Accessed: 26 Feb 17]
+PythonLibraries contains all third party libraries need to run my project, none of which are created or modified by myself

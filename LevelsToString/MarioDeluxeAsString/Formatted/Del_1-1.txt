@@ -1,0 +1,10 @@
+                                                          00000000   b               r                                                                                                                  
+                 X=====                                 ==============   ==== ==========                                  ======                y                              XX                       
+                 X                                                     G                                             G                          ~-                            XXX                       
+                 X                                                                                                                              LF                           XXXX                       
+                GX r  X                y   ?                                         g g   X                            y                  yg   LF                          XXXXX                       
+                 X=?==X   ++?++        ~-                 ?==========  X+           ++?++++X                            ~-   ~-            ~-  +++?                        XXXXXX                       
+                                       LF                             XX                                                LF   LF            LF                   y         XXXXXXX                       
+                                y      LF    y                       XXX                                                LF   LF            LF                   ~-       XXXXXXXX                       
+                                ~-     LF    ~- bb                  XXXX             g g           b b       g g g      LF   LF            LF     r          r  LF     bXXXXXXXXX                       
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNLFNNNNNNNNNNNLFNNNNNN   NNNNNNNNNNNNNNNNNNNN    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN   NN  NNNNNNNNNNNNNNNNNNN   NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN

@@ -1,0 +1,5 @@
+SEQ_LEN = 110
+HIDDEN_UNITS = 512
+BATCH_SIZE = 330
+layers = 2
+grad clip = 1 

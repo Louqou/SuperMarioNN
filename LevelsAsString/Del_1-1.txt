@@ -1,0 +1,10 @@
+                                                          00000000   b               r                                   aaaaaaaa                                             aaaa                      
+                 X=====                                 ==============   ==== ==========                                 a======a               y                            aaXXa                      
+                 X                                                     G                                             G   a      a               ~-                          aaXXXa                      
+                 X                                                                                                       a      a               LF                         aaXXXXa                      
+                GX r  X               ayaa ?                          aaaa           g g   X                           aya      a         ayga  LF                        aaXXXXXa                      
+                 X=?==X   ++?++       a~-a                ?==========aaX+a          ++?++++X                           a~-   ~-  a        a~-a +++?                      aaXXXXXXa                      
+                                      aLFa           aa             aaXX a  aaa                                        aLF   LF  a        aLFa      aa         ayaa     aaXXXXXXXa                      
+                               ayaa   aLFa  ayaa    a  a           aaXXX a a  aa                                       aLF   LF  a        aLFa     a  a        a~-a    aaXXXXXXXXa                      
+Taaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa~-aaaaaLFaaaa~-abbaaa  aaaaaaaaaaaaaXXXX aaa   aaaaaagagaaaaaaaaaaababaaaaaaagagagaaaaaaLF   LF  aaaaaaaaaaLFaaaaara  aaaaaaaraaLFaaaaabXXXXXXXXXaaaaaaaaaaaaaaaaaaaaaaE
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNLFNNNNNNNNNNNLFNNNNNN   NNNNNNNNNNNNNNNNNNNN    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN   NN  NNNNNNNNNNNNNNNNNNN   NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
